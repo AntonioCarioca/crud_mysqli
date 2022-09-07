@@ -1,0 +1,78 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #74b9ff;
+}
+
+form{
+	background-color: #ffffff;
+	margin: 50px auto;
+	padding: 20px;
+	max-width: 700px;
+	border-radius: 5px;
+	box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
+h1{
+	text-align: center;
+	font-size: 2rem;
+}
+
+div.campos{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	text-align: center;
+}
+
+div.campos > label{
+	font-size: 1.2rem;
+}
+
+div.campos > input{
+	width: 300px;
+	height: 5px;
+	padding: 15px;
+	margin: 10px auto;
+	text-align: center;
+	font-size: 1.2rem;
+	outline: none;
+}
+
+div.btns{
+	display: flex;
+	flex-direction: column;
+}
+
+button#entrar{
+	background-color: #00b894;
+	width: 250px;
+	height: 35px;
+	text-align: center;
+	font-size: 1rem;
+	margin: 10px auto;
+	border: none;
+	cursor: pointer;
+	box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+	color: #ffffff;
+}
+
+a{
+	margin: 10px auto;
+}
+
+button#cadastrar{
+	background-color: #e17055;
+	width: 250px;
+	height: 35px;
+	text-align: center;
+	font-size: 1rem;
+	border: none;
+	cursor: pointer;
+	box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+	color: #ffffff;
+	text-align: center;
+}
